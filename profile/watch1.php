@@ -67,20 +67,20 @@
             <div class="container">
                 <ul>
                     <li>
-                        <a class=" d-flex algin-center fs-14 c-black rad-6 p-10" href="dashboard.php">
+                        <a class=" d-flex algin-center fs-14 c-black rad-6 p-10" href="../profile/dashboard.php">
                         <i class="fa-solid fa-chart-bar fa-fw"></i>
                         
                         <span class="hide-mobile">Dashboard</span>
                         </a>
                     </li>
                     <li>
-                        <a class=" d-flex algin-center fs-14 c-black rad-6 p-10" href="profile.php">
+                        <a class=" d-flex algin-center fs-14 c-black rad-6 p-10" href="../profile/profile.php">
                         <i class="fa-solid fa-user fa-fw"></i>                        
                         <span>Profile</span>
                         </a>
                     </li>
                     <li id="ex">
-                        <a class=" active d-flex algin-center fs-14 c-black rad-6 p-10" href="explain.php">
+                        <a class=" active d-flex algin-center fs-14 c-black rad-6 p-10" href="../profile/watch1.php">
                         <i class="fa-solid fa-chalkboard-user fa-fw"></i>
                         
                         <span id="myBtn" class="php">Explanations</span>
