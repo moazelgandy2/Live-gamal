@@ -86,14 +86,7 @@
                         <span id="myBtn" class="php">Explanations</span>
                         </a>
                     </li>
-                    <li id="lo">
-                        <a class="  d-flex algin-center fs-14 c-black rad-6 p-10" href="">
-                        <i class="fa-solid fa-chalkboard-user fa-fw"></i>
-                        <i class=" pl-10 fa-solid fa-lock" style="padding-left:10px ;"></i>
-                        
-                        <span id="myBtn" class="php">Explanations</span>
-                        </a>
-                    </li>
+
                     <li id="ad">
                         <a class=" d-flex algin-center fs-14 c-black rad-6 p-10" href="../admin/dashboard.php">
                         <i class="fa-solid fa-gears"></i>
@@ -127,28 +120,7 @@
             <!-- End Head -->
             <h1 class="p-relative">Explanations</h1>
             <div class="example-page d-grid m-20 gap-20">
-                <?php
-                    if (mysqli_num_rows(mysqli_query($conn, "SELECT * FROM users WHERE code=''")) > 0) {
-                        echo "<script>
-                        const element = document.getElementById('lo');
-                        const element2 = document.getElementById('lo2');
-                        const element3 = document.getElementById('lo3');
-                        element.remove();
-                        element2.remove();
-                        element3.remove();
-                            </script>";                 
-                    }
-                    else{
-                        echo "<script>
-                        const element = document.getElementById('ex');
-                        const element2 = document.getElementById('ex2');
-                        const element3 = document.getElementById('ex3');
-                        element.remove();
-                        element2.remove();
-                        element3.remove();
-                            </script>";
-                    }
-                ?>
+                
                 <div class="course bg-white rad-6 p-relative">
                     <?php
 			            require 'connect.php';
