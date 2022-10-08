@@ -269,7 +269,7 @@
               <!-- Start Information Row -->
               <div class="box p-20 d-flex align-center">
                 <div class="fs-14">
-                  <span class="c-grey">Phone:</span>
+                  <span class="c-grey">Father's Phone:</span>
                   <span><p><?php
                                 if (mysqli_num_rows($query3) > 0) {
                                             $row3 = mysqli_fetch_assoc($query3);
