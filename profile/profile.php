@@ -37,31 +37,6 @@
 
 
 
-<?php
-                                            // $rowww = mysqli_fetch_assoc($queryyy);
-                                            // $queerryy = mysqli_query($conn, "SELECT * FROM `users` WHERE `email` = '{$_SESSION['SESSION_EMAIL']}' && `typee` = 'Admin'") or die(mysqli_error());
-                                            // $countt = mysqli_num_rows($queerryy);
-                                            $admin = mysqli_query($conn , "SELECT * FROM users WHERE email='{$_SESSION['SESSION_EMAIL']}'");
-                                            $ad = mysqli_fetch_assoc($admin);
-                                            if ($ad['typee'] == "Admin") {
-                                                // $ms='Admin' ;
-                                                // echo $ms;
-                                                
-                                                
-                                            }
-                                            else{
-                                                // $Color = "gray";
-                                                // $ms2= "Student";
-                                                // echo '<div style="Color:'.$Color.'">'.$ms2.'</div>';
-                                                echo "<script>
-                                                const element5 = document.getElementById('ad');
-                                                element5.remove();
-                                                </script>"; 
-                                            }
-                                        
-?>
-
-
 
 <?php
 
@@ -151,6 +126,31 @@
                     </li>
                 </ul>
             </div>
+
+<?php
+                                            // $rowww = mysqli_fetch_assoc($queryyy);
+                                            // $queerryy = mysqli_query($conn, "SELECT * FROM `users` WHERE `email` = '{$_SESSION['SESSION_EMAIL']}' && `typee` = 'Admin'") or die(mysqli_error());
+                                            // $countt = mysqli_num_rows($queerryy);
+                                            $admin = mysqli_query($conn , "SELECT * FROM users WHERE email='{$_SESSION['SESSION_EMAIL']}'");
+                                            $ad = mysqli_fetch_assoc($admin);
+                                            if ($ad['typee'] == "Admin") {
+                                                // $ms='Admin' ;
+                                                // echo $ms;
+                                                
+                                                
+                                            }
+                                            else{
+                                                // $Color = "gray";
+                                                // $ms2= "Student";
+                                                // echo '<div style="Color:'.$Color.'">'.$ms2.'</div>';
+                                                echo "<script>
+                                                const element5 = document.getElementById('ad');
+                                                element5.remove();
+                                                </script>"; 
+                                            }
+                                        
+?>
+
             
             <?php
                                             // $rowww = mysqli_fetch_assoc($queryyy);
