@@ -68,7 +68,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class=" d-flex algin-center fs-14 c-black rad-6 p-10" href="upload.php">
+                        <a class=" d-flex algin-center fs-14 c-black rad-6 p-10" href="uploadvid.php">
                         <i class="fa-solid fa-upload"></i>
                         <span>Upload</span>
                         </a>
