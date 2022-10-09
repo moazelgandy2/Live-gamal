@@ -74,7 +74,7 @@
                     </li>
 
                     <li id="ex">
-                        <a class=" d-flex algin-center fs-14 c-black rad-6 p-10" href="watch.php">
+                        <a class=" d-flex algin-center fs-14 c-black rad-6 p-10" href="../profile/watch1.php">
                         <i class="fa-solid fa-chalkboard-user fa-fw"></i>
                         
                         <span>Explanations</span>
