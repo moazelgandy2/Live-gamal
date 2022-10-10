@@ -47,7 +47,7 @@
                     $result = mysqli_query($conn, $sqll);
                 
                     $result = mysqli_query($conn, $sql);
-                    header("Location: index.php");
+                    header("Location: ../si/index.php");
             }else {
                 $msg2 = "<div class='alert alert-danger'>Password and Confirm Password do not match</div>";
               }
