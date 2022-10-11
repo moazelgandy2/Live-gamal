@@ -28,6 +28,7 @@ session_start();
         <h6>PHYSICS TEACHER</h6>
         <div class="row">
             <a href="../signup/index.php">SignIn &#x27F6</a>
+                        <a href="../si/index.php">si &#x27F6</a>
             <a href="../signup/register.php">SignUp &#x27F6</a>
         </div>
 
